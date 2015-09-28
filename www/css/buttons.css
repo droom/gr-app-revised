@@ -1,0 +1,35 @@
+.button-stable.button-slab{
+  padding: 2px 15px;
+  border: none;
+  border-radius: 2px;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+.button-stable.button-slab.button-cta{
+  background: #fff568;
+}
+.button-stable.button-slab + .button-stable.button-slab{
+  margin-left: 8px
+}
+
+
+
+.checkbox input:before,
+.checkbox-icon:before,
+.checkbox input:checked,
+.checkbox input:checked:before,
+.checkbox input:checked + .checkbox-icon:before {
+  border-radius: 4px;
+  border: none;
+  background: #ddd;
+}
+.checkbox input:checked:before, .checkbox input:checked + .checkbox-icon:before {
+  background: #a2fee4;
+  border-color: #387ef5;
+}
+
+
+

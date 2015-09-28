@@ -1,0 +1,114 @@
+<!-- GR-PAGE CREATE NEW -->
+
+<ion-view view-title="New Receipt">
+<ion-nav-bar class="bar-stable" align-title="left">
+<!-- <ion-nav-buttons side="secondary"> -->
+<!-- <button class="button new" ui-sref="tab.settings"><a ui-sref="tab.settings">New</a></button> -->
+<!-- </ion-nav-buttons> -->
+
+
+<!-- <ion-nav-buttons side="secondary"> -->
+<!-- <button class="button new" ui-sref="tab.account"><img src="img/new.svg" class="new-receipt"></button> -->
+<!-- </ion-nav-buttons> -->
+
+
+</ion-nav-bar>
+<ion-content>
+
+<div class="card stepper">
+  <div class="row stepper">
+    <div class="col col-33">
+      <a href="#/tab/dash">ITEMS</a>
+    </div>
+    <div class="col col-33">
+      <a href="#/tab/dash-2">RECIPIENT</a>
+    </div>
+    <div class="col col-33 active">
+      <a href="#/tab/dash-3">PREVIEW</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<div class="card sent">
+  <div class="item header"></div>
+  <div class="item content">
+    <div class="item">
+      <h2>Official Receipt</h2>
+      <small>
+        April 14th, 2015<br />
+        #0001923
+      </small>
+    </div>
+    <div class="item item-text-wrap">
+      <small>
+        ISSUED TO
+      </small>
+      <ul>
+        <li>Christopher Droom</li>
+        <li>(words@droom.name)</li>
+        <li>Reddit Inc.</li>
+      </ul>
+    </div>
+    <div class="table item-text-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Product/Service</th>
+            <th>Qty</th>
+            <th>Unit</th>
+            <th>GST</th>
+            <th>S. Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{{chat.firstItem}}</td>
+            <td>1</td>
+            <td>RM29</td>
+            <td>RM6</td>
+            <td>RM35</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>Travelon Anti-Theft Messenger Bag</td>
+            <td>2</td>
+            <td>RM29</td>
+            <td>RM6</td>
+            <td>RM35</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td colspan="3"></td>
+            <td class="total">TOTAL</td>
+            <td class="total">RM35</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="item footer"></div>
+</div>
+
+
+
+<div class="item isolated">
+  <button onclick="window.location.href='#/tab/chats/0'" class="button button-stable button-slab button-cta">
+    Send Receipt
+  </button>
+</div>
+
+
+
+</div>
+
+
+</ion-content>
+</ion-view>

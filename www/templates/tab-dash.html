@@ -1,0 +1,84 @@
+<!-- GR-PAGE CREATE NEW -->
+
+<ion-view view-title="New Receipt">
+<ion-nav-bar class="bar-stable" align-title="left">
+<!-- <ion-nav-buttons side="secondary"> -->
+<!-- <button class="button new" ui-sref="tab.settings"><a ui-sref="tab.settings">New</a></button> -->
+<!-- </ion-nav-buttons> -->
+
+
+<!-- <ion-nav-buttons side="secondary"> -->
+<!-- <button class="button new" ui-sref="tab.account"><img src="img/new.svg" class="new-receipt"></button> -->
+<!-- </ion-nav-buttons> -->
+
+
+
+</ion-nav-bar>
+<ion-content>
+
+
+<div class="card stepper">
+  <div class="row stepper">
+    <div class="col col-33 active">
+      <a href="#/tab/dash">ITEMS</a>
+    </div>
+    <div class="col col-33">
+      <a href="#/tab/dash-2">RECIPIENT</a>
+    </div>
+    <div class="col col-33">
+      <a href="#/tab/dash-3">PREVIEW</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="card new">
+
+  <div class="list">
+    <label class="item item-input item-stacked-label">
+      <span class="input-label">Item Name</span>
+      <input type="text" placeholder="John">
+    </label>
+    <label class="item item-input item-stacked-label">
+      <span class="input-label">Unit Price</span>
+      <input type="text" placeholder="Suhr">
+    </label>
+    <label class="item item-input item-stacked-label">
+      <span class="input-label">Quantity</span>
+      <input type="text" placeholder="john@suhr.com">
+    </label>
+  </div>
+
+
+
+  <div class="item item-body">
+    <ul class="list">
+      <li class="item item-checkbox">
+       <label class="checkbox">
+         <input type="checkbox">
+       </label>
+       Include GST for this item
+     </li>
+   </ul>
+ </div>
+</div>
+
+
+<div class="item isolated">
+  <button class="button button-stable button-slab">
+    Add Item
+  </button>
+
+  <button onclick="window.location.href='#/tab/dash-2'" class="button button-stable button-slab button-cta">
+    Continue
+  </button>
+</div>
+
+
+
+</div>
+
+
+
+</ion-content>
+</ion-view>

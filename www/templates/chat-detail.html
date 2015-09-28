@@ -1,0 +1,91 @@
+<!--
+  This template loads for the 'tab.friend-detail' state (app.js)
+  'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
+  The FriendsCtrl pulls data from the Friends service (service.js)
+  The Friends service returns an array of friend data
+-->
+
+<ion-view view-title="">
+<ion-content>
+
+<ul class="list success">
+  <li class="item">
+   Receipt sucessfully sent
+ </li>
+</ul>
+
+
+<div class="card sent">
+  <div class="item header"></div>
+  <div class="item content">
+    <div class="item">
+      <h2>Official Receipt</h2>
+      <small>
+        April 14th, 2015<br />
+        #0001923
+      </small>
+    </div>
+    <div class="item item-text-wrap">
+      <small>
+        ISSUED TO
+      </small>
+      <ul>
+        <li>Christopher Droom</li>
+        <li>(words@droom.name)</li>
+        <li>Reddit Inc.</li>
+      </ul>
+    </div>
+    <div class="table item-text-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Product/Service</th>
+            <th>Qty</th>
+            <th>Unit</th>
+            <th>GST</th>
+            <th>S. Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{{chat.firstItem}}</td>
+            <td>1</td>
+            <td>RM29</td>
+            <td>RM6</td>
+            <td>RM35</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>Travelon Anti-Theft Messenger Bag</td>
+            <td>2</td>
+            <td>RM29</td>
+            <td>RM6</td>
+            <td>RM35</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td colspan="3"></td>
+            <td class="total">TOTAL</td>
+            <td class="total">RM35</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="item">
+      <button class="button button-stable button-slab">
+        Resend
+      </button>
+      <button class="button button-stable button-slab">
+        Download PDF
+      </button>
+    </div>
+  </div>
+  <div class="item footer"></div>
+</div>
+
+
+
+</ion-content>
+</ion-view>
