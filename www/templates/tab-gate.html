@@ -1,0 +1,95 @@
+<!-- GR-PAGE GATE -->
+
+<ion-view view-title="" class="gate">
+<ion-nav-bar class="bar-stable" align-title="left">
+<ion-nav-buttons side="secondary">
+
+ <div class="item isolated">
+  <button onclick="window.location.href='#/tab/dash-3'" class="button button-stable button-slab">
+    Sign up
+  </button>
+</div>
+
+
+</ion-nav-buttons>
+</ion-nav-bar>
+<ion-content>
+<img src="img/logo.svg" class="logo">
+
+<ion-slide-box on-slide-changed="slideHasChanged($index)">
+  <ion-slide>
+    <div class="item header isolated">
+      <p>Sign in</p>
+    </div>
+
+    <div class="card gate">
+      <div class="list">
+        <label class="item item-input item-stacked-label">
+          <span class="input-label">Email address</span><input type="text" placeholder="">
+        </label>
+        <label class="item item-input item-stacked-label">
+          <span class="input-label">Password</span><input type="text" placeholder="">
+        </label>
+      </div>
+      <div class="item item-body">
+        <ul class="list">
+          <li class="item item-checkbox">
+            <label class="checkbox"><input type="checkbox"></label>Keep me signed in
+          </li>
+        </ul>
+      </div>
+          <div class="card gate cta">
+      <button onclick="window.location.href='#/tab/chats'" class="button button-block button-stable button-cta">Sign in with email</button>
+      </div>
+    </div>
+    <div class="card gate">
+      <button onclick="window.location.href='#/tab/chats'" class="button button-block button-stable button-positive">Sign in with facebook</button>
+    </div>
+
+  </ion-slide>
+
+  <ion-slide>
+    <div class="item header isolated">
+      <p>Sign in</p>
+    </div>
+
+    <div class="card gate">
+      <div class="list">
+        <label class="item item-input item-stacked-label">
+          <span class="input-label">Email address</span>
+          <input type="text" placeholder="">
+        </label>
+        <label class="item item-input item-stacked-label">
+          <span class="input-label">Password</span>
+          <input type="text" placeholder="">
+        </label>
+
+        <label class="item item-input item-stacked-label">
+          <span class="input-label">Password Confirmation</span>
+          <input type="text" placeholder="">
+        </label>
+      </div>
+    <div class="card gate cta">
+      <button onclick="window.location.href='#/tab/dash-2'" class="button button-block button-stable button-cta">Sign up with email</button>
+    </div>
+
+    </div>
+
+
+
+  </ion-slide>
+</ion-slide-box>
+
+
+
+
+
+
+
+
+
+
+
+
+</ion-content>
+</ion-view>

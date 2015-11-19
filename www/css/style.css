@@ -15,10 +15,6 @@
 @import 'elements/items.css';
 
 
-hr{
-  background: #ddd;
-}
-
 
 .new-receipt{
   position: absolute;

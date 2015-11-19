@@ -1,0 +1,25 @@
+table{
+  width: 100%
+}
+table th{
+  font-weight: bold;
+  border-bottom: black solid 1px;
+  padding: 5px;
+}
+table td{
+  padding: 5px 5px;
+}
+table td.total{
+  font-weight: bold;
+}
+
+table td, th{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: left;
+}
+table th:nth-child(1),
+table td:nth-child(1){
+  width: 50%;
+}
