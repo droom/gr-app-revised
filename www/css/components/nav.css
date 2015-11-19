@@ -1,0 +1,28 @@
+.bar.bar-stable {
+  border: none;
+  background: none;
+  min-height: 70px;
+}
+.bar .title + .button:last-child,
+.bar > .button + .button:last-child,
+.bar > .button.pull-right,
+.bar .buttons.pull-right,
+.bar .title + .buttons{
+  min-height: 10px;
+  position: absolute;
+  top: 5px;
+  right: 3px;
+}
+.button.back-button.buttons,
+.bar.bar-stable .title-left.header-item{
+  padding: 4px 7px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+.tab-nav.tabs{
+  height: 60px;
+  padding: 7px 0;
+}

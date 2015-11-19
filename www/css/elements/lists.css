@@ -1,0 +1,46 @@
+ul.list.success{
+  background: #95ffe0;
+  margin-top: -1px;
+  margin-bottom: 20px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  height: 52px;
+}
+ul.list.success .item{
+  border: 0;
+}
+ul.list.success .item:before{
+  font-family: "Ionicons";
+  content: "\f122";
+  margin: 10px;
+}
+
+
+
+.list {
+  margin-bottom: 0;
+}
+
+.list .item:first-child{
+  border-top: none
+}
+.list.list-inset.search input{
+  border: 0;
+  box-shadow: 0;
+}
+
+.list.card.account small{
+  font-size: 12px;
+  color: #777;
+}
+
+.list.card.account .content{
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 7px;
+}
+
+.list.card.account .button{
+  margin: 10px 0px 0 0;
+  padding: 2px 9px;
+}

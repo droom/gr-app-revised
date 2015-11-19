@@ -101,6 +101,28 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     }
   })
 
+
+  .state('tab.account-edit', {
+    url: '/account-edit',
+    views: {
+      'tab-account-edit': {
+        templateUrl: 'templates/tab-account-edit.html',
+        controller: 'AccountCtrl'
+      }
+    }
+  })
+
+  .state('tab.account-upload', {
+    url: '/account-upload',
+    views: {
+      'tab-account-upload': {
+        templateUrl: 'templates/tab-account-upload.html',
+        controller: 'AccountCtrl'
+      }
+    }
+  })
+
+
   .state('tab.gate', {
     url: '/gate',
     views: {

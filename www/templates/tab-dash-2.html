@@ -2,30 +2,15 @@
 
 <ion-view view-title="New Receipt">
 <ion-nav-bar class="bar-stable" align-title="left">
-<!-- <ion-nav-buttons side="secondary"> -->
-<!-- <button class="button new" ui-sref="tab.settings"><a ui-sref="tab.settings">New</a></button> -->
-<!-- </ion-nav-buttons> -->
-
-
-<!-- <ion-nav-buttons side="secondary"> -->
-<!-- <button class="button new" ui-sref="tab.account"><img src="img/new.svg" class="new-receipt"></button> -->
-<!-- </ion-nav-buttons> -->
-
 
 </ion-nav-bar>
 <ion-content>
 
 <div class="card stepper">
   <div class="row stepper">
-    <div class="col col-33">
-      <a href="#/tab/dash">ITEMS</a>
-    </div>
-    <div class="col col-33 active">
-      <a href="#/tab/dash-2">RECIPIENT</a>
-    </div>
-    <div class="col col-33">
-      <a href="#/tab/dash-3">PREVIEW</a>
-    </div>
+    <a href="#/tab/dash" class="col col-33">ITEMS</a>
+    <a href="#/tab/dash-2" class="col col-33 active">RECIPIENT</a>
+    <a href="#/tab/dash-3" class="col col-33">PREVIEW</a>
   </div>
 </div>
 
@@ -48,13 +33,17 @@
 
 
 
-
-
-
-<div class="item isolated">
-  <button onclick="window.location.href='#/tab/dash-3'" class="button button-stable button-slab button-cta">
-    Continue
+<div class="row">
+  <div class="col">
+  <button onclick="window.location.href='#/tab/dash'" class="button button-stable button-slab">
+    &larr; Back
   </button>
+  </div>
+  <div class="col text-right">
+  <button onclick="window.location.href='#/tab/dash-3'" class="button button-stable button-slab button-cta">
+    Continue &rarr;
+  </button>
+  </div>
 </div>
 
 

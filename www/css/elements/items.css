@@ -1,0 +1,27 @@
+.item{
+  background: none;
+}
+.item.header.isolated{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 15px 0;
+}
+.item.isolated{
+  border: 0;
+  margin: 0 1px;
+  padding: 10px;
+}
+.item-complex .item-content,
+.item-radio .item-content{
+  background: none;
+}
+.item.item-input.search{
+  margin: 0;
+  margin-top: -1px;
+  box-shadow: 0;
+  background: #fff;
+  height: 52px;
+  border-right: 0;
+  border-left: 0;
+}
